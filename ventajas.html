@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Framework Bootstrap - Motivos para usar Bootstrap</title>
+
+    <meta name="author" content="Alberto Núñez García">
+    <meta name="description" content="Motivos por los que Bootstrap es útil y algunas desventajas a tener en cuenta">
+    <meta name="keywords" content="Bootstrap, CSS, Responsive, JavaScript, Less, GitHub, Wikipedia">
+    <meta name="viewport" content="width=device-width,initial scale=1.0">
+    <meta name="titulo" content="Framework Bootstrap - Historia">
+
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css">
+    <link rel="stylesheet" type="text/css" href="estilo/trabajo.css">
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css">
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html">
+            <picture>
+                <source srcset="multimedia/images/logo.png" media="(min-width: 450px)">
+                <source srcset="multimedia/images/logo-tiny.png">
+                <img src="multimedia/images/logo.png" alt="Framework Bootstrap">
+            </picture>
+        </a></h1>
+        <nav>
+            <ul>
+                <li><a  title="Inicio" 
+                        accesskey="N"
+                        tabindex="1" 
+                        href="index.html">Inicio</a></li>
+                <li><a title="Ventajas" 
+                        accesskey="V"
+                        tabindex="2" 
+                        href="ventajas.html">Ventajas</a></li>
+                <li><a title="Historia" 
+                        accesskey="H"
+                        tabindex="3" 
+                        href="historia.html">Historia</a></li>
+                <li><a title="Opinion" 
+                        accesskey="P"
+                        tabindex="4" 
+                        href="opinion.html">Opinión</a></li>
+            </ul>
+        </nav>
+    </header>
+    <article>
+        <h2>¿Por qué usar Bootstrap?</h2> 
+        <section>
+            <h3>Introducción</h3>
+            <p>
+                Este Framework te evita el tener que preocuparte por las media queries y los porcentajes en tus CSS para hacer una web Responsive, facilitando la programación del sitio.
+            </p> 
+            <p>
+                Además, se basa en la simplicidad de sus interfaces, lo cual es una tendencia del mercado, en las que tiende a diseño plano, botones grandes, etc… para facilitar la usabilidad en los dispositivos más pequeño, atendiendo a la Experiencia de Usuario.
+            </p>
+        </section>
+        <section>
+            <h3>Ventajas</h3>
+            <ul>
+                <li>Incluye Grid system: muy útil para maquetar por columnas.</li>
+                <li>Sus plantillas son de sencilla adaptación responsive.</li>
+                <li>Se integra con librerías JavaScript.</li>
+                <li>Usa Less: un lenguaje de las hojas de estilo CSS preparado para enriquecer los estilos de la web.</li>
+                <li>Cuenta con una documentación completa que te puede sacar de apuros rápidamente.</li>
+                <li>Facilita enormemente el diseño de interfaces</li>
+            </ul>
+            <h3>Desventajas</h3>
+            <ul>
+                <li>Es complicado cambiar de versión si has realizado modificaciones profundas.</li>
+                <li>No es ligero</li>
+                <li>Debes adaptar tu diseño a un grid de 12 columnas, que se modifican según el dispositivo</li>
+            </ul>
+        </section>
+        <section>
+            <h3>Primeros pasos</h3>
+            <video src="multimedia/video/curso.mp4" controls preload="auto">Primeros pasos en Bootstrap</video>
+        </section>
+    </article>
+    <aside>
+        <h3>Sitios relacionados</h3>
+        <ul>
+            <li><a  title= "Articulo de la Wikipedia"
+                    accesskey="T"
+                    tabindex="5"
+                    href="https://es.wikipedia.org/wiki/Bootstrap_(framework)">Articulo de la Wikipedia</a></li>
+            <li><a  title="Repositorio de GitHub"
+                    accesskey="R"
+                    tabindex="6"
+                    href="https://github.com/twbs/bootstrap">Repositorio de GitHub</a></li>
+            <li><a  title="Página oficial" 
+                    accesskey="G"
+                    tabindex="7"
+                    href="https://getbootstrap.com/">Página oficial</a></li>
+        </ul>
+    </aside>
+    <footer class = "full-width">
+        <a href="https://validator.w3.org/check?uri=referer">
+            <img src="multimedia/validator/HTML5.png" alt=" HTML5 Válido!"></a>
+            
+        <a href=" http://jigsaw.w3.org/css-validator/check/referer ">
+                <img src="multimedia/validator/CSS3.png"
+                alt="CSS Válido!" height="63" width="64"></a>
+    </footer>
+</body>
+</html>
